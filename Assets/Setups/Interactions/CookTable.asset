@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7935bf5eb7c54b2bb8cc9585e1792490, type: 3}
+  m_Name: CookTable
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 1
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: Indob0NhbkludGVyYWN0Ijogew0KICAgICIkaWQiOiAwLA0KICAgICIkdHlwZSI6ICIwfFN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkxpc3RgMVtbU2V0dXBzLkludGVyYWN0aW9ucy5Xb3JrZXJUeXBlLCBBc3NlbWJseS1DU2hhcnBdXSwgbXNjb3JsaWIiLA0KICAgICIkcmxlbmd0aCI6IDAsDQogICAgIiRyY29udGVudCI6IFsNCiAgICBdDQp9LA0KIndob0NhblN0YXJ0V29yayI6IHsNCiAgICAiJGlkIjogMSwNCiAgICAiJHR5cGUiOiAwLA0KICAgICIkcmxlbmd0aCI6IDIsDQogICAgIiRyY29udGVudCI6IFsNCiAgICAgICAgew0KICAgICAgICAgICAgIiR0eXBlIjogIjF8U2V0dXBzLkludGVyYWN0aW9ucy5Xb3JrZXJUeXBlLCBBc3NlbWJseS1DU2hhcnAiLA0KICAgICAgICAgICAgIlR5cGUiOiAiUGxheWVyV29ya2VyIg0KICAgICAgICB9LA0KICAgICAgICB7DQogICAgICAgICAgICAiJHR5cGUiOiAxLA0KICAgICAgICAgICAgIlR5cGUiOiAiUGFzc2l2ZVdvcmtlciINCiAgICAgICAgfQ0KICAgIF0NCn0=
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  interactionTime: 15
+  interactionAngle: 60
+  isAnimateWorker: 1
+  nameAnimateWork: IsWorking
+  iconInteraction: {fileID: 21300000, guid: 6abeb8395f98d41a2bea50ea810e9243, type: 3}
+  InteractToShowMiniGame: 5
+  MiniGameChance: 2
+  <DefaultSkinPartTypeEffects>k__BackingField: 0400000002000000
+  allCanInteract: 1
+  isWorkWithoutWorker: 0
+  _effectSlice:
+    m_Keys: []
+    m_Values: []
+  recipes: {fileID: 11400000, guid: 1c16031ea51245e4b8ae6723fa5b6880, type: 2}
+  workTool: {fileID: 0}
+  interactSoundKeys: {fileID: 11400000, guid: 355e3b35771457c498d6cdec2f691f6a, type: 2}
+  completeSoundKeys: {fileID: 11400000, guid: 5307ec5b225464dec906bf6749649581, type: 2}
+  completeFryingSoundKeys: {fileID: 0}

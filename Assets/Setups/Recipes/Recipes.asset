@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5841503715622740690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a735386467724432a77794b9cbb0f41c, type: 3}
+  m_Name: 123
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -152, y: -1832}
+  ports:
+    keys:
+    - inputResourceType
+    - outputRecipe
+    values:
+    - _fieldName: inputResourceType
+      _node: {fileID: -5841503715622740690}
+      _typeQualifiedName: Setups.Recipes.ResourceType, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: resourceType
+        node: {fileID: -5451123092609555240}
+        reroutePoints: []
+      - fieldName: outputRecipe
+        node: {fileID: 1946403610897834862}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputRecipe
+      _node: {fileID: -5841503715622740690}
+      _typeQualifiedName: OdinNode.Recipes.Recipe, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  inputResourceType: {fileID: 0}
+  outputRecipe:
+    iconRecipe: {fileID: 0}
+    recipe: []
+  recipe:
+    iconRecipe: {fileID: 21300000, guid: 87d1c133d7d2c9a4fa08506a7e3cc7fa, type: 3}
+    recipe:
+    - resourceType: {fileID: 11400000, guid: ddb5adb19a3ae4e4f9dc2edcc551dfa5, type: 2}
+      count: 1
+    - resourceType: {fileID: 11400000, guid: fbddae40cff31ae49a72e2b67997bf53, type: 2}
+      count: 1
+    - resourceType: {fileID: 11400000, guid: 5814babdb031731489059a66c1dc177c, type: 2}
+      count: 1
+--- !u!114 &-5451123092609555240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b2ed65b65b74ae9b1680a736b105888, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -760, y: -1352}
+  ports:
+    keys:
+    - resourceType
+    values:
+    - _fieldName: resourceType
+      _node: {fileID: -5451123092609555240}
+      _typeQualifiedName: Setups.Recipes.ResourceType, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: inputResourceType
+        node: {fileID: -5841503715622740690}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  resourceType: {fileID: 11400000, guid: ddb5adb19a3ae4e4f9dc2edcc551dfa5, type: 2}
+--- !u!114 &-1638427973594686043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b2ed65b65b74ae9b1680a736b105888, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -760, y: -1816}
+  ports:
+    keys:
+    - resourceType
+    values:
+    - _fieldName: resourceType
+      _node: {fileID: -1638427973594686043}
+      _typeQualifiedName: Setups.Recipes.ResourceType, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: inputResourceType
+        node: {fileID: 1946403610897834862}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  resourceType: {fileID: 11400000, guid: fbddae40cff31ae49a72e2b67997bf53, type: 2}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22658a8f79ab47da9ec98f3bb9a17bc5, type: 3}
+  m_Name: Recipes
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -5451123092609555240}
+  - {fileID: 6803016772196608229}
+  - {fileID: -1638427973594686043}
+  - {fileID: 1946403610897834862}
+  - {fileID: -5841503715622740690}
+  recipes:
+  - iconRecipe: {fileID: 21300000, guid: 2e30c00e8ef753c4e8b25d370825463e, type: 3}
+    recipe:
+    - resourceType: {fileID: 11400000, guid: 224ff7fa6fce4ab4aa6e06528026ad89, type: 2}
+      count: 1
+  - iconRecipe: {fileID: 21300000, guid: fceb3504b3b54684f9041870a00af86e, type: 3}
+    recipe:
+    - resourceType: {fileID: 11400000, guid: fbddae40cff31ae49a72e2b67997bf53, type: 2}
+      count: 1
+    - resourceType: {fileID: 11400000, guid: 5814babdb031731489059a66c1dc177c, type: 2}
+      count: 1
+  - iconRecipe: {fileID: 21300000, guid: 87d1c133d7d2c9a4fa08506a7e3cc7fa, type: 3}
+    recipe:
+    - resourceType: {fileID: 11400000, guid: ddb5adb19a3ae4e4f9dc2edcc551dfa5, type: 2}
+      count: 1
+    - resourceType: {fileID: 11400000, guid: fbddae40cff31ae49a72e2b67997bf53, type: 2}
+      count: 1
+    - resourceType: {fileID: 11400000, guid: 5814babdb031731489059a66c1dc177c, type: 2}
+      count: 1
+--- !u!114 &1946403610897834862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a735386467724432a77794b9cbb0f41c, type: 3}
+  m_Name: 12
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -440, y: -1816}
+  ports:
+    keys:
+    - inputResourceType
+    - outputRecipe
+    values:
+    - _fieldName: inputResourceType
+      _node: {fileID: 1946403610897834862}
+      _typeQualifiedName: Setups.Recipes.ResourceType, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: resourceType
+        node: {fileID: -1638427973594686043}
+        reroutePoints: []
+      - fieldName: resourceType
+        node: {fileID: 6803016772196608229}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputRecipe
+      _node: {fileID: 1946403610897834862}
+      _typeQualifiedName: OdinNode.Recipes.Recipe, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: inputResourceType
+        node: {fileID: -5841503715622740690}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  inputResourceType: {fileID: 0}
+  outputRecipe:
+    iconRecipe: {fileID: 0}
+    recipe: []
+  recipe:
+    iconRecipe: {fileID: 21300000, guid: fceb3504b3b54684f9041870a00af86e, type: 3}
+    recipe:
+    - resourceType: {fileID: 11400000, guid: fbddae40cff31ae49a72e2b67997bf53, type: 2}
+      count: 1
+    - resourceType: {fileID: 11400000, guid: 5814babdb031731489059a66c1dc177c, type: 2}
+      count: 1
+--- !u!114 &6803016772196608229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b2ed65b65b74ae9b1680a736b105888, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -760, y: -1576}
+  ports:
+    keys:
+    - resourceType
+    values:
+    - _fieldName: resourceType
+      _node: {fileID: 6803016772196608229}
+      _typeQualifiedName: Setups.Recipes.ResourceType, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: inputResourceType
+        node: {fileID: 1946403610897834862}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  resourceType: {fileID: 11400000, guid: 5814babdb031731489059a66c1dc177c, type: 2}

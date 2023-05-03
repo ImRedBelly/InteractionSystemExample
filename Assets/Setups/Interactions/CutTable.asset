@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7935bf5eb7c54b2bb8cc9585e1792490, type: 3}
+  m_Name: CutTable
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 1
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: Indob0NhbkludGVyYWN0Ijogew0KICAgICIkaWQiOiAwLA0KICAgICIkdHlwZSI6ICIwfFN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkxpc3RgMVtbU2V0dXBzLkludGVyYWN0aW9ucy5Xb3JrZXJUeXBlLCBBc3NlbWJseS1DU2hhcnBdXSwgbXNjb3JsaWIiLA0KICAgICIkcmxlbmd0aCI6IDAsDQogICAgIiRyY29udGVudCI6IFsNCiAgICBdDQp9LA0KIndob0NhblN0YXJ0V29yayI6IHsNCiAgICAiJGlkIjogMSwNCiAgICAiJHR5cGUiOiAwLA0KICAgICIkcmxlbmd0aCI6IDAsDQogICAgIiRyY29udGVudCI6IFsNCiAgICBdDQp9
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  interactionTime: 2
+  interactionAngle: 180
+  isAnimateWorker: 1
+  nameAnimateWork: IsWorking
+  iconInteraction: {fileID: 21300000, guid: 8e19598e46dc549fba01e05fc12965f0, type: 3}
+  InteractToShowMiniGame: 5
+  MiniGameChance: 2
+  <DefaultSkinPartTypeEffects>k__BackingField: 0400000002000000
+  allCanInteract: 1
+  isWorkWithoutWorker: 0
+  _effectSlice:
+    m_Keys:
+    - {fileID: 11400000, guid: 7826deab68cad47828af061c9a81dc57, type: 2}
+    - {fileID: 11400000, guid: a23970256bd47474d9e8ca918395bdf9, type: 2}
+    - {fileID: 11400000, guid: 4e231c952b0ae2f41b49972113fa6d61, type: 2}
+    - {fileID: 11400000, guid: e83cb3f4c306fb74e9e68394360c44dc, type: 2}
+    - {fileID: 11400000, guid: 0f9a9f3ba3fec2a44bb3e95d299ac2db, type: 2}
+    - {fileID: 11400000, guid: 1ccd4e47a5879744698b9be6081e4862, type: 2}
+    m_Values:
+    - {fileID: 2809337812259290385, guid: 66d0fcc98d6f743459bfc8c4f6ab6d48, type: 3}
+    - {fileID: 2809337812259290385, guid: aaf59b3f49646f849bbc475088b9145d, type: 3}
+    - {fileID: 2809337812259290385, guid: 078d7ac27ed61804cb5d172d537a9b14, type: 3}
+    - {fileID: 2809337812259290385, guid: be7fba9a4120fc14c9078600a19412ac, type: 3}
+    - {fileID: 2809337812259290385, guid: 824384984de0fd94c8a9a10e9be32d82, type: 3}
+    - {fileID: 2809337812259290385, guid: eb626a5be947f4b478b49f8388d28dc0, type: 3}
+  recipes: {fileID: 11400000, guid: c7d0c5b8c284a2c44b00f9ca70be2239, type: 2}
+  workTool: {fileID: 3525383476986663415, guid: cd2b12f00917648f3a7125456dea9ca2, type: 3}
+  interactSoundKeys: {fileID: 11400000, guid: df8bf310504854196928e4fd371bb57a, type: 2}
+  completeSoundKeys: {fileID: 11400000, guid: da2b57ffc70554c1e906bc21475bbb12, type: 2}
+  completeFryingSoundKeys: {fileID: 0}

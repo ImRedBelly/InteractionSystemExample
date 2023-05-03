@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ae41b133fef4642b056d1088e8ffa4b, type: 3}
+  m_Name: Trash
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 1
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: Indob0NhbkludGVyYWN0Ijogew0KICAgICIkaWQiOiAwLA0KICAgICIkdHlwZSI6ICIwfFN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkxpc3RgMVtbU2V0dXBzLkludGVyYWN0aW9ucy5Xb3JrZXJUeXBlLCBBc3NlbWJseS1DU2hhcnBdXSwgbXNjb3JsaWIiLA0KICAgICIkcmxlbmd0aCI6IDAsDQogICAgIiRyY29udGVudCI6IFsNCiAgICBdDQp9LA0KIndob0NhblN0YXJ0V29yayI6IHsNCiAgICAiJGlkIjogMSwNCiAgICAiJHR5cGUiOiAwLA0KICAgICIkcmxlbmd0aCI6IDAsDQogICAgIiRyY29udGVudCI6IFsNCiAgICBdDQp9
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  interactionTime: 0.5
+  interactionAngle: 60
+  isAnimateWorker: 0
+  nameAnimateWork: IsWorking
+  iconInteraction: {fileID: 21300000, guid: 28b3f2531026f4f6ebacd8f9dcdc47f4, type: 3}
+  InteractToShowMiniGame: 5
+  MiniGameChance: 2
+  <DefaultSkinPartTypeEffects>k__BackingField: 0400000002000000
+  allCanInteract: 1
+  isWorkWithoutWorker: 0
+  notAllowedResource:
+  - {fileID: 11400000, guid: 4b3632bc42a65484ca91652edd1fcb5c, type: 2}
+  - {fileID: 11400000, guid: 8b3b0df89b72042059e59696f4bab26d, type: 2}
+  interactionSoundKeys: {fileID: 11400000, guid: c94e3c8682e98454eacd1c07c0901b66, type: 2}
+  completeSoundKeys: {fileID: 11400000, guid: b3c010e92ef084818b9474261dcce491, type: 2}
